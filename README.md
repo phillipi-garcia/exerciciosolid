@@ -1,10 +1,10 @@
 # Exercicio SOLID - Refatoracao de Sistema de Logistica
 
-Este repositorio contem a refatoracao de um sistema de gerenciamento de entregas para uma startup de logistica. O objetivo do projeto e demonstrar a aplicacao pratica dos 5 principios SOLID para transformar um codigo legado, acoplado e de dificil manutencao em uma arquitetura limpa e escalavel.
+Este repositorio contem a refatoracao de um sistema ficticio de gerenciamento de entregas, criado para simular o cenario de uma startup de logistica. O objetivo do projeto e demonstrar a aplicacao pratica dos 5 principios SOLID para transformar um codigo legado, acoplado e de dificil manutencao em uma arquitetura limpa e escalavel.
 
 ## Visao Geral do Projeto
 
-O codigo original apresentava serios problemas de design de software. A refatoracao reescreveu a base do sistema isolando responsabilidades e criando abstracoes. O projeto ataca cinco violacoes principais:
+O codigo base utilizado para este exercicio apresentava serios problemas de design de software. A refatoracao reescreveu a estrutura do sistema isolando responsabilidades e criando abstracoes. O projeto ataca cinco violacoes principais:
 
 * SRP (Responsabilidade Unica): Isolamento de entidades, persistencia no banco de dados e geracao de relatorios.
 * OCP (Aberto/Fechado): Implementacao de interfaces para adicionar novos tipos de frete sem modificar o calculo base.
@@ -25,8 +25,6 @@ exerciciosolid/
 │       ├── ISP/                # Interfaces segregadas por função
 │       └── DIP/                # Abstrações de serviços de notificação
 
-
-
 ## Como Executar
 
 1. Clone o repositorio.
@@ -34,4 +32,3 @@ exerciciosolid/
 3. Execute o `Program.cs` para visualizar no console a orquestracao dos servicos refatorados.
 
 ---
-Autor: Phillipi Garcia da Silveira
