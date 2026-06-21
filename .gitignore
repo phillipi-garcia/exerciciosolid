@@ -1,0 +1,23 @@
+# Pastas de compilação e execução
+[Bb]in/
+[Oo]bj/
+
+# Configurações locais da máquina (Visual Studio)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações locais da máquina (VS Code)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos de Log e Temporários
+*.log
+*.tmp
+*.bak
+*.swp
