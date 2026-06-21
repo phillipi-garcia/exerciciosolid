@@ -2,12 +2,9 @@ using System;
 using Logistica.App.DIP;
 using Logistica.App.OCP;
 
-namespace Logistica.App
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace Logistica.App{
+    class Program{
+        static void Main(string[] args){
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(" SISTEMA DE LOGÍSTICA \n");
             Console.ResetColor();
